@@ -4,6 +4,7 @@
 //      VCC: 5V or 3V
 //      GND: GND
 //      DATA: 2
+
 int pinDHT11 = 5;  // dht11不能接pin2,pin12
 SimpleDHT11 dht11(pinDHT11);  // SimpleDHT11: 型別
 
